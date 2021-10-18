@@ -13,8 +13,10 @@ Cd = 0.25
 Fd = 1/2 * Cd * phava * A * V**2 # N/m cinsinden kuvvet
 print ('Fd = ',Fd, 'N/m cinsinden kuvvet')
 # Soru 4'ün cevabı;
-V4 = 5
+V0 = 3
 teta = 30
 t = 0.3
-x = V4 * mt.cos(teta) * t
-g = 2
+x = V0 * mt.radians(mt.cos(teta))
+g = 9.81
+y = V0 * mt.radians(mt.sin(teta)) * t - (1/2)*g*t**2
+print ("x ={:.2g} m, y = {:.2d} m".format(y,x))
