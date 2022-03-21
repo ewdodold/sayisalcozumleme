@@ -1,6 +1,6 @@
 import math as mt
 #Soru 1'in cevabı;
-print ('Ad-Soyad: Batuhan Haybek, Numara: 16050019')
+print ('Ad-Soyad: Batuhan Haybek, Numara: 1*9')
 # Soru 2'nin cevabı;
 a = (7 + 2**3 / (1/4) + 1 - 2 * ((3**2)*(4-2)/9))
 print ("a'nin degeri: ", a)
