@@ -8,7 +8,7 @@ print ("a'nin degeri: ", a)
 V = 20/3.6 # m/s cinsinden
 phava = 1.24*9.81 # N/m**3 cinsinden
 r = 20*10**(-2) # m cinsinden
-A =  mt.pi * r**2 # 90 derece karşıdan bakıldığında daire çember olarak gözükecektir bu yüzden çemberin alan fomülünü kullandım
+A =  mt.pi * r**2 # 90 derece karşıdan bakıldığında kure cember olarak gözükecektir bu yüzden çemberin alan fomülünü kullandım
 Cd = 0.25
 Fd = 1/2 * Cd * phava * A * V**2 # N/m cinsinden kuvvet
 print ('Fd = ',Fd, 'N/m cinsinden kuvvet')
